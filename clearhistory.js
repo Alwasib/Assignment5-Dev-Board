@@ -1,0 +1,9 @@
+document.getElementById("clear").addEventListener('click',function(event){
+    event.preventDefault();
+    document.getElementById("message1").style.display="none";
+document.getElementById("message2").style.display="none";
+document.getElementById("message3").style.display="none";
+document.getElementById("message4").style.display="none";
+document.getElementById("message5").style.display="none";
+document.getElementById("message6").style.display="none";
+})

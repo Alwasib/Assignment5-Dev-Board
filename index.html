@@ -19,34 +19,33 @@
     <header class="mb-8 mt-4">
        <nav class="flex justify-between items-center bg-slate-200 text-center px-8 py-4 rounded-xl">
        <div class="flex gap-4  items-center">
-        <img src="assets/logo.png" alt="">
+        <img class="w-[45px] h-[45px]" src="assets/logo.png" alt="">
         <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
        </div>
        <div class="flex gap-16 items-center">
         <div class="flex gap-4 items-center">
             <img class="w-[32px] h-[32px]" src="assets/checkbox.png" alt="">
-       <h1 class="font-bold text-[32px]">23</h1>
+       <h1 id="value1" class="font-bold text-[32px]">23</h1>
         </div>
-        <img class="w-[40px] h-[40px]" src="assets/theme-btn.png" alt="">
+        <img id="logo" class="w-[40px] h-[40px]" src="assets/theme-btn.png" alt="">
        </div>
        </nav>
     </header>
     <main>
-  <section>
+  <section class="mb-12">
     
-    <div class="flex gap-6  ">
-
-        <div class="w-[1050px] h-[1000px]  bg-slate-100 p-4 rounded-lg">
-            <div class="grid grid-cols-3  gap-4 p-4 rounded-lg  mb-[64px]">
+    <div class="flex gap-6 px-4 py-4">
+        <div class="w-[1050px] h-[1050px]  bg-slate-100 px-4  py-6 rounded-lg">
+            <div class="flex gap-8  rounded-lg  mb-[64px]">
                 <div class="flex w-[250px] items-center gap-6 px-8 py-6 rounded-lg  bg-slate-200  h-[128px]">
                     <img class="w-[28px] h-[28px]" src="assets/checkbox.png" alt="">
                     <div>
                         <small class="font-medium text-[16px] text-[#00303C]">Task Assigned </small>
-                        <h1 class="font-bold text-[32px]">06</h1>
+                        <h1 id="value2" class="font-bold text-[32px]">06</h1>
                     </div>
                 </div>
-                <div class="w-[450px] h-[128px] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-lg  py-6">
-                    <div class="flex items-center gap-4 pr-[50px] pl-[30px]">
+                <div id="discover" class="w-[450px] h-[128px] bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] rounded-lg py-8 pl-7 pr-12">
+                    <div class="flex items-center gap-6 ">
                         <img class="w-[56px] h-[64px]" src="assets/board.png" alt="">
                     <p class="font-medium text-2xl text-[#FFFFFF]">Discover Something New Today!</p>
                     </div>
@@ -61,8 +60,8 @@
              </div>
 
              <div class=" grid grid-cols-3 gap-7">
-                <div class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
-                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-md flex items-center justify-center">
+                <div  class="bg-slate-200 py-6 px-4 space-y-6 shadow-md rounded-xl">
+                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-lg flex items-center justify-center">
                     <p class="text-[16px] text-[#00303C]">ShopEase</p>
                     </div>
                     <h1 class="font-medium text-2xl">Fix Mobile Button Issue</h1>
@@ -71,16 +70,17 @@
 
                             </p>
                     </div>
-                    <div class="flex gap-7 items-center">
+                    <div class="border border-dashed border-[#3752FD]"></div>
+                    <div class="flex gap-8 items-center">
                         <div>
                         <small>Deadline</small>
                         <p class="font-medium ">21 March 2025</p>
                         </div>
-                        <button class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
+                        <button  id="complete1" class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
                     </div>
                 </div>
-                <div class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
-                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-md flex items-center justify-center">
+                <div  class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
+                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-lg flex items-center justify-center">
                     <p class="text-[16px] text-[#00303C]">CloudSync</p>
                     </div>
                     <h1 class="font-medium text-2xl">Add Dark Mode</h1>
@@ -89,16 +89,17 @@
 
                             </p>
                     </div>
-                    <div class="flex gap-7 items-center ">
+                    <div class="border border-dashed border-[#3752FD]"></div>
+                    <div class="flex gap-8 items-center ">
                         <div>
                         <small>Deadline</small>
                         <p class="font-medium ">21 March 2025</p>
                         </div>
-                        <button class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
+                        <button id="complete2" class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
                     </div>
                 </div>
-                <div class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
-                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-md flex items-center justify-center">
+                <div  class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
+                    <div class="w-[100px] h-[40px] bg-slate-100 rounded-lg flex items-center justify-center">
                     <p class="text-[16px] text-[#00303C]">SwiftPay</p>
                     </div>
                     <h1 class="font-medium text-2xl">Optimize  Home page </h1>
@@ -107,16 +108,17 @@
 
                             </p>
                     </div>
-                    <div class="flex gap-7 items-center">
+                    <div class="border border-dashed border-[#3752FD]"></div>
+                    <div class="flex gap-8 items-center">
                         <div>
                         <small>Deadline</small>
                         <p class="font-medium ">21 March 2025</p>
                         </div>
-                        <button class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
+                        <button id="complete3" class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
                     </div>
                 </div>
-                <div class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
-                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-md flex items-center justify-center">
+                <div  class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
+                    <div class="w-[80px] h-[40px] bg-slate-100 rounded-lg flex items-center justify-center">
                     <p class="text-[16px] text-[#00303C]">Meta</p>
                     </div>
                     <h1 class="font-medium text-2xl">Add new emoji 🤲</h1>
@@ -125,16 +127,17 @@
 
                             </p>
                     </div>
-                    <div class="flex gap-7 items-center">
+                    <div class="border border-dashed border-[#3752FD]"></div>
+                    <div class="flex gap-8 items-center">
                         <div>
                         <small>Deadline</small>
                         <p class="font-medium ">21 March 2025</p>
                         </div>
-                        <button class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
+                        <button id="complete4" class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
                     </div>
                 </div>
-                <div class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
-                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-md flex items-center justify-center">
+                <div  class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
+                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-lg flex items-center justify-center">
                     <p class="text-[16px] text-[#00303C]">Google LLC</p>
                     </div>
                     <h1 class="font-medium text-2xl">Integrate OpenAI API </h1>
@@ -143,30 +146,32 @@
 
                             </p>
                     </div>
-                    <div class="flex gap-7 items-center">
+                    <div class="border border-dashed border-[#3752FD]"></div>
+                    <div class="flex gap-8 items-center">
                         <div>
                         <small>Deadline</small>
                         <p class="font-medium ">21 March 2025</p>
                         </div>
-                        <button class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
+                        <button id="complete5" class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
                     </div>
                 </div>
-                <div class="bg-slate-200 p-6 space-y-6 shadow-md rounded-xl">
-                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-md flex items-center justify-center">
+                <div  class="bg-slate-200 py-6 px-4 space-y-6 shadow-md rounded-xl">
+                    <div class="w-[114px] h-[40px] bg-slate-100 rounded-lg flex items-center justify-center">
                     <p class="text-[16px] text-[#00303C]">Glassdoar</p>
                     </div>
-                    <h1 class="font-medium text-2xl">Improve Job search </h1>
+                    <h1 class="font-medium text-2xl">Improve Job searching</h1>
                     <div class="p-4 bg-slate-100 rounded-md">
                         <p class="text-xl text-[#000000] ">Debug using Chrome DevTools, check for overlapping elements...
 
                             </p>
                     </div>
-                    <div class="flex gap-7 items-center">
+                    <div class="border border-dashed border-[#3752FD]"></div>
+                    <div class="flex gap-8 items-center">
                         <div>
                         <small>Deadline</small>
                         <p class="font-medium ">21 March 2025</p>
                         </div>
-                        <button class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
+                        <button id="complete6" class="text-[#FFFFFF]   bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Completed</button>
                     </div>
                 </div>
              </div>
@@ -174,19 +179,38 @@
 
 
             <!--activity log-->
-    <div class="bg-slate-100 w-[366px]  h-[1000px] p-[24px] text-center rounded-lg">
+    <div class="bg-slate-100 w-[366px]  h-[1050px] p-[24px] text-center rounded-lg">
         <div class="flex items-center gap-3 justify-center mb-4 ">
             <img class="w-[24px] h-[24px]" src="assets/activity.png" alt="">
             <p class="text[#00303C] text-[20px] font-medium">Activity Log</p>
         </div>
-         <button class="text-[#FFFFFF] mb-[40px]  bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Clear History</button>
-         <div class="bg-slate-200 p-2 rounded-lg">
-            <p class="text-[16px] text-[#000000]">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+         <button id="clear" class="text-[#FFFFFF] mb-[40px]  bg-blue-600 border-none py-2 px-4 rounded-xl text-[16px] font-medium">Clear History</button>
+         <div id="message1" class="bg-slate-200 p-2 rounded-lg">
+            <p class="text-[16px] text-start text-[#000000]">You have Complete The Task Fix Mobile Button Issue at 12:48:15 PM</p>
+        </div>
+        <div id="message2" class="bg-slate-200 p-2 rounded-lg mt-6">
+            <p class="text-[16px] text-start text-[#000000]">You have Complete The Task Add Dark Mode at 1:48:15 PM</p>
+        </div>
+        <div id="message3" class="bg-slate-200 p-2 rounded-lg mt-6">
+            <p class="text-[16px] text-start text-[#000000]">You have Complete The Task Optimize Home page at 2:48:15 PM</p>
+        </div>
+        <div  id="message4" class="bg-slate-200 p-2 rounded-lg mt-6">
+            <p class="text-[16px] text-start text-[#000000]">You have Complete The Task Add new emoji 🤲 at 6:58:15 PM</p>
+        </div>
+        <div id="message5" class="bg-slate-200 p-2 rounded-lg mt-6">
+            <p class="text-[16px] text-start text-[#000000]">You have Complete The Task Integrate OpenAI API at 6:58:15 PM</p>
+        </div>
+        <div id="message6" class="bg-slate-200 p-2 rounded-lg mt-6">
+            <p class="text-[16px] text-start text-[#000000]">You have Complete The Task Improve Job searching at 9:08:10 PM</p>
         </div>
     </div>
       </div>
    
   </section>
     </main>
+    <script src="bgcolor.js"></script>
+    <script src="clearhistory.js"></script>
+    <script src="back.js"></script>
+    <script src="complete.js"></script>
 </body>
 </html>
